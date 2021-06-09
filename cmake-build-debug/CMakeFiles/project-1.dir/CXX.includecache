@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/users/guest/i/ignacioh/CS-236/tmp/tmp.3maIgIU3Rw/Automaton.h
+Token.h
+/users/guest/i/ignacioh/CS-236/tmp/tmp.3maIgIU3Rw/Token.h
+
+/users/guest/i/ignacioh/CS-236/tmp/tmp.3maIgIU3Rw/MatcherAutomaton.cpp
+MatcherAutomaton.h
+/users/guest/i/ignacioh/CS-236/tmp/tmp.3maIgIU3Rw/MatcherAutomaton.h
+
+/users/guest/i/ignacioh/CS-236/tmp/tmp.3maIgIU3Rw/MatcherAutomaton.h
+Automaton.h
+/users/guest/i/ignacioh/CS-236/tmp/tmp.3maIgIU3Rw/Automaton.h
+
+/users/guest/i/ignacioh/CS-236/tmp/tmp.3maIgIU3Rw/Token.h
+string
+-
+

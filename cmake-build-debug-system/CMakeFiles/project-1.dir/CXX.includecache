@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/Graph.cpp
+Graph.h
+/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/Graph.h
+
+/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/Graph.h
+map
+-
+set
+-
+iostream
+-
+Rule.h
+/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/Rule.h
+set
+-
+Predicate.h
+/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/Predicate.h
+
+/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/Parameter.h
+string
+-
+
+/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/Predicate.h
+Parameter.h
+/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/Parameter.h
+string
+-
+vector
+-
+
+/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/Rule.h
+Predicate.h
+/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/Predicate.h
+vector
+-
+string
+-
+

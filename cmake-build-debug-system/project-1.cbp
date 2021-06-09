@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="project-1"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/cmake-build-debug-system"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/cmake-build-debug-system/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/cmake-build-debug-system/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/cmake-build-debug-system/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/cmake-build-debug-system/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/cmake-build-debug-system"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/cmake-build-debug-system/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/cmake-build-debug-system/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/cmake-build-debug-system/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/cmake-build-debug-system/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/cmake-build-debug-system"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/cmake-build-debug-system/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/cmake-build-debug-system/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/cmake-build-debug-system/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/cmake-build-debug-system/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="project-1">
+				<Option output="/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/cmake-build-debug-system/project-1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/cmake-build-debug-system"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/."/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/cmake-build-debug-system/Makefile&quot;  VERBOSE=1 project-1"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/cmake-build-debug-system/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/cmake-build-debug-system/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/cmake-build-debug-system/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="project-1/fast">
+				<Option output="/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/cmake-build-debug-system/project-1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/cmake-build-debug-system"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/."/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/cmake-build-debug-system/Makefile&quot;  VERBOSE=1 project-1/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/cmake-build-debug-system/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/cmake-build-debug-system/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/cmake-build-debug-system/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/Automaton.h">
+			<Option target="project-1"/>
+		</Unit>
+		<Unit filename="/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/ColonAutomaton.cpp">
+			<Option target="project-1"/>
+		</Unit>
+		<Unit filename="/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/ColonAutomaton.h">
+			<Option target="project-1"/>
+		</Unit>
+		<Unit filename="/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/ColonDashAutomaton.cpp">
+			<Option target="project-1"/>
+		</Unit>
+		<Unit filename="/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/ColonDashAutomaton.h">
+			<Option target="project-1"/>
+		</Unit>
+		<Unit filename="/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/CommentAutomata.cpp">
+			<Option target="project-1"/>
+		</Unit>
+		<Unit filename="/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/CommentAutomata.h">
+			<Option target="project-1"/>
+		</Unit>
+		<Unit filename="/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/Database.cpp">
+			<Option target="project-1"/>
+		</Unit>
+		<Unit filename="/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/Database.h">
+			<Option target="project-1"/>
+		</Unit>
+		<Unit filename="/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/DatalogProgram.cpp">
+			<Option target="project-1"/>
+		</Unit>
+		<Unit filename="/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/DatalogProgram.h">
+			<Option target="project-1"/>
+		</Unit>
+		<Unit filename="/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/Graph.cpp">
+			<Option target="project-1"/>
+		</Unit>
+		<Unit filename="/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/Graph.h">
+			<Option target="project-1"/>
+		</Unit>
+		<Unit filename="/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/Header.cpp">
+			<Option target="project-1"/>
+		</Unit>
+		<Unit filename="/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/Header.h">
+			<Option target="project-1"/>
+		</Unit>
+		<Unit filename="/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/IDAutomata.cpp">
+			<Option target="project-1"/>
+		</Unit>
+		<Unit filename="/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/IDAutomata.h">
+			<Option target="project-1"/>
+		</Unit>
+		<Unit filename="/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/Interpreter.cpp">
+			<Option target="project-1"/>
+		</Unit>
+		<Unit filename="/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/Interpreter.h">
+			<Option target="project-1"/>
+		</Unit>
+		<Unit filename="/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/Lexer.cpp">
+			<Option target="project-1"/>
+		</Unit>
+		<Unit filename="/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/Lexer.h">
+			<Option target="project-1"/>
+		</Unit>
+		<Unit filename="/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/MatcherAutomaton.cpp">
+			<Option target="project-1"/>
+		</Unit>
+		<Unit filename="/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/MatcherAutomaton.h">
+			<Option target="project-1"/>
+		</Unit>
+		<Unit filename="/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/Parameter.cpp">
+			<Option target="project-1"/>
+		</Unit>
+		<Unit filename="/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/Parameter.h">
+			<Option target="project-1"/>
+		</Unit>
+		<Unit filename="/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/Parser.cpp">
+			<Option target="project-1"/>
+		</Unit>
+		<Unit filename="/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/Parser.h">
+			<Option target="project-1"/>
+		</Unit>
+		<Unit filename="/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/Predicate.cpp">
+			<Option target="project-1"/>
+		</Unit>
+		<Unit filename="/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/Predicate.h">
+			<Option target="project-1"/>
+		</Unit>
+		<Unit filename="/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/Relation.cpp">
+			<Option target="project-1"/>
+		</Unit>
+		<Unit filename="/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/Relation.h">
+			<Option target="project-1"/>
+		</Unit>
+		<Unit filename="/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/Rule.cpp">
+			<Option target="project-1"/>
+		</Unit>
+		<Unit filename="/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/Rule.h">
+			<Option target="project-1"/>
+		</Unit>
+		<Unit filename="/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/StringAutomata.cpp">
+			<Option target="project-1"/>
+		</Unit>
+		<Unit filename="/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/StringAutomata.h">
+			<Option target="project-1"/>
+		</Unit>
+		<Unit filename="/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/Token.cpp">
+			<Option target="project-1"/>
+		</Unit>
+		<Unit filename="/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/Token.h">
+			<Option target="project-1"/>
+		</Unit>
+		<Unit filename="/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/Tuple.cpp">
+			<Option target="project-1"/>
+		</Unit>
+		<Unit filename="/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/Tuple.h">
+			<Option target="project-1"/>
+		</Unit>
+		<Unit filename="/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/main.cpp">
+			<Option target="project-1"/>
+		</Unit>
+		<Unit filename="/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

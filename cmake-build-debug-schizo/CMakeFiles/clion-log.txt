@@ -1,0 +1,3 @@
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /users/guest/i/ignacioh/CS-236/Project-2
+CMake Error: The source directory "/users/guest/i/ignacioh/CS-236/Project-2" does not appear to contain CMakeLists.txt.
+Specify --help for usage, or press the help button on the CMake GUI.
