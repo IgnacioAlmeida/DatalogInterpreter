@@ -17,10 +17,16 @@ Graph::Graph(std::vector<Rule> rules){
                 if(rules.at(k).GetHeadPredicate().GetId() == parameters.at(j).GetId()){
                     adjacencies[i].insert(k);
                     reverseAdjacencies[k].insert(i);
-                    visited[i] = false;
+                    //visited[i] = false;
                 }
             }
         }
+    }
+
+    //Mark all vertices as false since they haven't been visited
+
+    for (unsigned int i = 0; i < reverseAdjacencies.size(); ++i) {
+        visited.push_back(false);
     }
 }
 std::string Graph::ToString() {
@@ -51,4 +57,73 @@ std::string Graph::ReverseToString() {
         output += "\n";
     }
     return output;
+}
+
+void Graph::DFS(){
+//    for(unsigned int i = 0; i < reverseAdjacencies.size(); i++){
+//        visited.push_back(false);
+//    }
+    for(unsigned int i = 0 ; i < reverseAdjacencies.size(); i++) {
+        if (!visited.at(i)) {
+            DFS(i);
+        }
+    }
+}
+
+void Graph::DFS(int v){
+    visited.at(v) = true;
+    std::set<int>::iterator it = reverseAdjacencies[v].begin();
+    for(unsigned int i = 0; i < reverseAdjacencies[v].size(); i++){
+        if(!visited.at(*it)){
+            DFS(*it);
+        }
+        it++;
+    }
+    postOrder.push(v);
+}
+
+void Graph::DFSForest() {
+    //    forest:=empty
+//            for each vertex v in G
+//                clear the visit mark for v
+    for(unsigned int i = 0; i < adjacencies.size(); i++){
+        visited.at(i) = false;
+    }
+    while(postOrder.size() > 0){
+        if(!visited.at(postOrder.top())){
+            std::set<int> mySet;
+            DFSForest(postOrder.top(), mySet);
+            SCC.push_back(mySet);
+        }
+        postOrder.pop();
+    }
+
+//            for each vertex v in G
+//                if v is not marked
+//                    tree := DFS(v)
+//                    add tree to forest
+}
+
+std::set<int> Graph::DFSForest(int v, std::set<int>& mySet){
+    visited.at(v) = true;
+    std::set<int>::iterator it = adjacencies[v].begin();
+    for(unsigned int i = 0; i < adjacencies[v].size(); i++){
+        if(!visited.at(*it)){
+            DFSForest(*it, mySet);
+        }
+        it++;
+    }
+    mySet.insert(v);
+    return mySet;
+}
+
+bool Graph::selfRule(int rule) {
+    std::set<int>::iterator it = adjacencies[rule].begin();
+    for(unsigned int i = 0; i < adjacencies[rule].size(); i++){
+        if(*it == rule){
+            return true;
+        }
+        it++;
+    }
+    return false;
 }

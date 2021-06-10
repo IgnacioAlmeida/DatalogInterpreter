@@ -119,24 +119,49 @@ void Interpreter::EvaluateRules(){
     Graph graph = Graph(rules);
     std::cout << graph.ToString() << std::endl;
     std::cout << graph.ReverseToString() << std::endl;
+    graph.DFS();
+    graph.DFSForest();
+    std::vector<std::set<int>> SCC = graph.GetSCC();
     std::cout << "Rule Evaluation" << std::endl;
     int initialCount = 0;
     int postCount = 0;
-    int itPassed = 0;
 
-//    do{
-//        initialCount = GetDatabaseSize();
-//
-//        for(Rule rule : rules){
-//            EvaluateRule(rule);
-//        }
-//
-//        postCount = database.DatabaseCounter();
-//        itPassed++;
-//    }while(initialCount != postCount);
-//
+    //TODO Integrating graph fucntions
+    for(unsigned int i = 0; i < SCC.size(); i++) {
+        std::cout << "SCC: ";
+        int itPassed = 0;
+        std::ostringstream output;
+        for (std::set<int>::iterator it = SCC.at(i).begin(); it != SCC.at(i).end(); it++) {
+            output << "R" << *it;
+            if (it != SCC.at(i).end()) {
+                output << ",";
+            }
+        }
+        std::string mainOutput = output.str();
+        if (mainOutput.size() != 0) {
+            mainOutput.pop_back();
+        }
+        std::cout << mainOutput << std::endl;
+
+        do{
+            initialCount = GetDatabaseSize();
+            bool yes = false;
+
+            for(Rule rule : rules){
+                EvaluateRule(rule);
+                if((SCC.at(i).size() == 1) && (!graph.selfRule(*(SCC.at(i).begin())))){
+                    yes = true;
+                }
+            }
+
+            postCount = database.DatabaseCounter();
+            itPassed++;
+            if (yes) goto exit;
+        }while(initialCount != postCount);
+        exit:
 //    std::cout << std::endl << "Schemes populated after " << itPassed << " passes through the Rules." << std::endl << std::endl;
-
+        std::cout << itPassed << " passes: " << mainOutput << std::endl;
+    }
 }
 
 void Interpreter::EvaluateRule(Rule& rule) {

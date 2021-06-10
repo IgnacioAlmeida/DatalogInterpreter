@@ -10,43 +10,11 @@
 Token.h
 /Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/Token.h
 
-/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/ColonAutomaton.cpp
-ColonAutomaton.h
-/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/ColonAutomaton.h
-
-/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/ColonAutomaton.h
-Automaton.h
-/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/Automaton.h
-
-/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/ColonDashAutomaton.cpp
-ColonDashAutomaton.h
-/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/ColonDashAutomaton.h
-
-/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/ColonDashAutomaton.h
-Automaton.h
-/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/Automaton.h
-
-/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/CommentAutomata.cpp
-CommentAutomata.h
-/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/CommentAutomata.h
-
-/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/CommentAutomata.h
-Automaton.h
-/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/Automaton.h
-
-/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/Database.cpp
-Database.h
-/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/Database.h
-
 /Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/Database.h
 map
 -
 Relation.h
 /Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/Relation.h
-
-/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/DatalogProgram.cpp
-DatalogProgram.h
-/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/DatalogProgram.h
 
 /Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/DatalogProgram.h
 vector
@@ -79,24 +47,16 @@ set
 -
 Predicate.h
 /Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/Predicate.h
-
-/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/Header.cpp
-Header.h
-/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/Header.h
+stack
+-
+sstream
+/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/sstream
 
 /Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/Header.h
 vector
 -
 string
 -
-
-/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/IDAutomata.cpp
-IDAutomata.h
-/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/IDAutomata.h
-
-/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/IDAutomata.h
-Automaton.h
-/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/Automaton.h
 
 /Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/Interpreter.cpp
 Interpreter.h
@@ -118,28 +78,6 @@ vector
 Graph.h
 /Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/Graph.h
 
-/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/Lexer.cpp
-Lexer.h
-/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/Lexer.h
-ColonAutomaton.h
-/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/ColonAutomaton.h
-ColonDashAutomaton.h
-/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/ColonDashAutomaton.h
-iostream
--
-vector
--
-MatcherAutomaton.h
-/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/MatcherAutomaton.h
-Token.h
-/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/Token.h
-CommentAutomata.h
-/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/CommentAutomata.h
-StringAutomata.h
-/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/StringAutomata.h
-IDAutomata.h
-/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/IDAutomata.h
-
 /Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/Lexer.h
 vector
 -
@@ -147,26 +85,10 @@ Automaton.h
 /Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/Automaton.h
 Token.h
 /Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/Token.h
-
-/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/MatcherAutomaton.cpp
-MatcherAutomaton.h
-/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/MatcherAutomaton.h
-
-/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/MatcherAutomaton.h
-Automaton.h
-/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/Automaton.h
-
-/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/Parameter.cpp
-Parameter.h
-/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/Parameter.h
 
 /Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/Parameter.h
 string
 -
-
-/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/Parser.cpp
-Parser.h
-/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/Parser.h
 
 /Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/Parser.h
 Token.h
@@ -184,10 +106,6 @@ Parameter.h
 Predicate.h
 /Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/Predicate.h
 
-/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/Predicate.cpp
-Predicate.h
-/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/Predicate.h
-
 /Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/Predicate.h
 Parameter.h
 /Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/Parameter.h
@@ -195,10 +113,6 @@ string
 -
 vector
 -
-
-/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/Relation.cpp
-Relation.h
-/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/Relation.h
 
 /Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/Relation.h
 string
@@ -214,10 +128,6 @@ set
 map
 -
 
-/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/Rule.cpp
-Rule.h
-/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/Rule.h
-
 /Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/Rule.h
 Predicate.h
 /Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/Predicate.h
@@ -226,25 +136,9 @@ vector
 string
 -
 
-/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/StringAutomata.cpp
-StringAutomata.h
-/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/StringAutomata.h
-
-/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/StringAutomata.h
-Automaton.h
-/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/Automaton.h
-
-/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/Token.cpp
-Token.h
-/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/Token.h
-
 /Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/Token.h
 string
 -
-
-/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/Tuple.cpp
-Tuple.h
-/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/Tuple.h
 
 /Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/Tuple.h
 iostream
