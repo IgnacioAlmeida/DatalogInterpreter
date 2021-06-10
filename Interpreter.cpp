@@ -118,7 +118,7 @@ void Interpreter::ToString() {
 void Interpreter::EvaluateRules(){
     Graph graph = Graph(rules);
     std::cout << graph.ToString() << std::endl;
-    std::cout << graph.ReverseToString() << std::endl;
+    //std::cout << graph.ReverseToString() << std::endl;
     graph.DFS();
     graph.DFSForest();
     std::vector<std::set<int>> SCC = graph.GetSCC();
@@ -156,6 +156,7 @@ void Interpreter::EvaluateRules(){
 
             postCount = database.DatabaseCounter();
             itPassed++;
+            //use jump statement to leave the do while loop and cout passes
             if (done) goto exit;
         }while(initialCount != postCount);
         exit:

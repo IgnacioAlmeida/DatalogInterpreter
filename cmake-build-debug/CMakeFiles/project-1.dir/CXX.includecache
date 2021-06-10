@@ -6,10 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/Automaton.h
-Token.h
-/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/Token.h
-
 /Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/Database.h
 map
 -
@@ -29,10 +25,6 @@ set
 -
 string
 -
-
-/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/Graph.cpp
-Graph.h
-/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/Graph.h
 
 /Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/Graph.h
 map
@@ -77,14 +69,6 @@ vector
 -
 Graph.h
 /Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/Graph.h
-
-/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/Lexer.h
-vector
--
-Automaton.h
-/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/Automaton.h
-Token.h
-/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/Token.h
 
 /Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/Parameter.h
 string
@@ -147,20 +131,4 @@ vector
 -
 string
 -
-
-/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/main.cpp
-Lexer.h
-/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/Lexer.h
-iostream
--
-string
--
-vector
--
-fstream
--
-Parser.h
-/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/Parser.h
-Interpreter.h
-/Users/nacho/OneDrive/BYU/CS-236/DatalogInterpreter/Interpreter.h
 
