@@ -17,14 +17,12 @@ Graph::Graph(std::vector<Rule> rules){
                 if(rules.at(k).GetHeadPredicate().GetId() == parameters.at(j).GetId()){
                     adjacencies[i].insert(k);
                     reverseAdjacencies[k].insert(i);
-                    //visited[i] = false;
                 }
             }
         }
     }
 
     //Mark all vertices as false since they haven't been visited
-
     for (unsigned int i = 0; i < reverseAdjacencies.size(); ++i) {
         visited.push_back(false);
     }
@@ -60,9 +58,6 @@ std::string Graph::ReverseToString() {
 }
 
 void Graph::DFS(){
-//    for(unsigned int i = 0; i < reverseAdjacencies.size(); i++){
-//        visited.push_back(false);
-//    }
     for(unsigned int i = 0 ; i < reverseAdjacencies.size(); i++) {
         if (!visited.at(i)) {
             DFS(i);
@@ -83,9 +78,6 @@ void Graph::DFS(int v){
 }
 
 void Graph::DFSForest() {
-    //    forest:=empty
-//            for each vertex v in G
-//                clear the visit mark for v
     for(unsigned int i = 0; i < adjacencies.size(); i++){
         visited.at(i) = false;
     }
@@ -97,11 +89,6 @@ void Graph::DFSForest() {
         }
         postOrder.pop();
     }
-
-//            for each vertex v in G
-//                if v is not marked
-//                    tree := DFS(v)
-//                    add tree to forest
 }
 
 std::set<int> Graph::DFSForest(int v, std::set<int>& mySet){

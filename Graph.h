@@ -12,7 +12,7 @@
 #include "Predicate.h"
 #include <stack>
 #include "sstream"
-//TODO Two graph objects, one for forward and one for reverse
+
 class Graph {
 private:
     //int is rule index  and set<int> are all the rules that have edges with the node asked

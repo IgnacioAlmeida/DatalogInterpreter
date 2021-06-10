@@ -122,11 +122,11 @@ void Interpreter::EvaluateRules(){
     graph.DFS();
     graph.DFSForest();
     std::vector<std::set<int>> SCC = graph.GetSCC();
+
     std::cout << "Rule Evaluation" << std::endl;
     int initialCount = 0;
     int postCount = 0;
 
-    //TODO Integrating graph fucntions
     for(unsigned int i = 0; i < SCC.size(); i++) {
         std::cout << "SCC: ";
         int itPassed = 0;
@@ -145,23 +145,24 @@ void Interpreter::EvaluateRules(){
 
         do{
             initialCount = GetDatabaseSize();
-            bool yes = false;
+            bool done = false;
 
-            for(Rule rule : rules){
-                EvaluateRule(rule);
+            for(std::set<int>::iterator it = SCC.at(i).begin(); it != SCC.at(i).end(); it++){
+                EvaluateRule(rules.at(*it));
                 if((SCC.at(i).size() == 1) && (!graph.selfRule(*(SCC.at(i).begin())))){
-                    yes = true;
+                    done = true;
                 }
             }
 
             postCount = database.DatabaseCounter();
             itPassed++;
-            if (yes) goto exit;
+            if (done) goto exit;
         }while(initialCount != postCount);
         exit:
 //    std::cout << std::endl << "Schemes populated after " << itPassed << " passes through the Rules." << std::endl << std::endl;
         std::cout << itPassed << " passes: " << mainOutput << std::endl;
     }
+    std::cout << std::endl;
 }
 
 void Interpreter::EvaluateRule(Rule& rule) {
